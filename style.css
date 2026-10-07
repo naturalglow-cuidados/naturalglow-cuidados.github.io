@@ -48,16 +48,17 @@ body {
     z-index: 100;
     border-bottom: 1px solid #eee3da;
 }
-
 .logo {
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
 }
 
-.logo span {
-    color: var(--verde);
+.logo img {
+    width: 120px;
+    height: auto;
+    display: block;
 }
+
 
 .menu {
     display: flex;
